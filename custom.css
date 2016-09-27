@@ -114,6 +114,24 @@ i {
 
 
 .videos {
-	/*background-color: black;
-	opacity: 0.5*/
+	
+}
+
+figure {
+	width: 300px;
+	display: inline-block;
+	margin: 5px;
+	justify-content: space-around;
+}
+
+figcaption {
+	width: 300px;
+	color: white;
+	font-weight: bold;
+
+}
+
+figure img {
+	width: 300px;
+	margin-bottom: 10px;
 }
