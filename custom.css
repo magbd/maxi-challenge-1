@@ -151,6 +151,8 @@ figure img {
 	margin-top: 20px;
 }
 
+/*articles about obsidian*/
+
 #about .container {
 	display: flex;
 	flex-direction: row;
@@ -159,5 +161,22 @@ figure img {
 }
 
 .article {
+	width: 300px;
+	text-align: justify;
+}
+
+.article time {
+	text-transform: uppercase;
+	color: white;
+	font-size: 0.8em;
+
+}
+
+.event {
+	margin-bottom: 1px;
+	font-weight: bold;
+}
+
+.article img {
 	width: 300px;
 }
