@@ -150,3 +150,33 @@ figure img {
 	margin-bottom: 10px;
 	margin-top: 20px;
 }
+
+/*articles about obsidian*/
+
+#about .container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.article {
+	width: 300px;
+	text-align: justify;
+}
+
+.article time {
+	text-transform: uppercase;
+	color: white;
+	font-size: 0.8em;
+
+}
+
+.event {
+	margin-bottom: 1px;
+	font-weight: bold;
+}
+
+.article img {
+	width: 300px;
+}
