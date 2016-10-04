@@ -6,16 +6,23 @@ body {
     background-position: 50%;
     background-size: 100%;
     background-attachment: fixed;
-    font-family: "Open Sans"
+    font-family: "Open Sans";
+}
+    
+.bio {
+
+	width: 60% ;
+	margin-left: 20%
 }
 
-.container {
+    .container {
 	margin: 0 auto;
 	width: 80%
 }
 
 hr {
 	color: white;
+	width: 80%
 }
 
 
@@ -26,7 +33,11 @@ p {
 h3 {
 	text-transform: uppercase;
 	color: white
+}
 
+h2 {
+	text-transform: uppercase;
+	color: white
 }
 
 header {
@@ -51,13 +62,11 @@ header nav ul {
 	padding: 0;
 	text-transform: uppercase;
 	text-align: center;
-
 }
 
 header nav ul li {
 	display: inline-block;
 	list-style: none;
-
 }
 
 header nav ul li a {
@@ -79,7 +88,6 @@ header h1 {
 	font-size: 4em;
 	font-style: normal;
 	margin-top: 20%
-
 }
 
 header p {
@@ -97,56 +105,6 @@ footer {
 	text-transform: uppercase;
 }
 
-i {
-	margin: 10px;
-}
-
-td {
-	border-bottom: 1px solid white;
-	color: white;
-	padding: 2%
-}
-
-.videos {
-	
-}
-
-figure {
-	width: 300px;
-	display: inline-block;
-	margin: 5px;
-}
-
-.video1 {
-	float: left;
-}
-
-.video2 {
-position: relative;
-left: 5%;
-
-}
-
-.video3 {
-	float: right;
-}
-
-figcaption {
-	width: 300px;
-	color: white;
-	font-weight: bold;
-	margin-bottom: 100px;
-
-}
-
-figure img {
-	width: 300px;
-	margin-bottom: 10px;
-	margin-top: 20px;
-}
-
-/*articles about obsidian*/
-
 #about .container {
 	display: flex;
 	flex-direction: row;
@@ -163,7 +121,6 @@ figure img {
 	text-transform: uppercase;
 	color: white;
 	font-size: 0.8em;
-
 }
 
 .event {

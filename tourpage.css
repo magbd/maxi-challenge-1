@@ -6,16 +6,17 @@ body {
     background-position: 50%;
     background-size: 100%;
     background-attachment: fixed;
-    font-family: "Open Sans"
+    font-family: "Open Sans";
 }
 
-.container {
+    .container {
 	margin: 0 auto;
 	width: 80%
 }
 
 hr {
 	color: white;
+	width: 80%
 }
 
 
@@ -26,7 +27,11 @@ p {
 h3 {
 	text-transform: uppercase;
 	color: white
+}
 
+h2 {
+	text-transform: uppercase;
+	color: white
 }
 
 header {
@@ -51,13 +56,11 @@ header nav ul {
 	padding: 0;
 	text-transform: uppercase;
 	text-align: center;
-
 }
 
 header nav ul li {
 	display: inline-block;
 	list-style: none;
-
 }
 
 header nav ul li a {
@@ -79,7 +82,6 @@ header h1 {
 	font-size: 4em;
 	font-style: normal;
 	margin-top: 20%
-
 }
 
 header p {
@@ -97,56 +99,6 @@ footer {
 	text-transform: uppercase;
 }
 
-i {
-	margin: 10px;
-}
-
-td {
-	border-bottom: 1px solid white;
-	color: white;
-	padding: 2%
-}
-
-.videos {
-	
-}
-
-figure {
-	width: 300px;
-	display: inline-block;
-	margin: 5px;
-}
-
-.video1 {
-	float: left;
-}
-
-.video2 {
-position: relative;
-left: 5%;
-
-}
-
-.video3 {
-	float: right;
-}
-
-figcaption {
-	width: 300px;
-	color: white;
-	font-weight: bold;
-	margin-bottom: 100px;
-
-}
-
-figure img {
-	width: 300px;
-	margin-bottom: 10px;
-	margin-top: 20px;
-}
-
-/*articles about obsidian*/
-
 #about .container {
 	display: flex;
 	flex-direction: row;
@@ -163,7 +115,6 @@ figure img {
 	text-transform: uppercase;
 	color: white;
 	font-size: 0.8em;
-
 }
 
 .event {
@@ -174,3 +125,79 @@ figure img {
 .article img {
 	width: 300px;
 }
+
+.projetmusic {                                    /* header sous la navbar avec le titre */
+  text-align: center;
+}
+.projetmusic h1 {
+  font-size: 60px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  font-weight: 100;
+}
+.projetmusic p {
+  margin-bottom: 5%;
+  color: white;
+}
+                                                  /* header sous la navbar avec le titre */
+.aboutmid2 {
+  width: 25%;
+  padding-left: 5%;
+  padding-right: 10%;
+  text-align: center;
+}
+.aboutmid2 img {
+  width: 130%;
+}
+                            /*left = image et boutons de vente et right = tableau*/
+.leftmusic {
+  width: 29%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+}
+.rightmusic {
+  vertical-align: top;
+  width: 80%;
+  display: inline-block;
+  padding-left: 10%
+}
+.musicbutton {
+  text-align: center;
+  padding-top: 33px;
+}
+.musicbutton a {
+  height: 30px;
+  padding-top: 11px ;
+  display: inline-block;
+  width: 100%;
+  margin-top: 15px;
+  text-decoration: none;
+  color: white;
+  background-color: #333;
+  opacity: 0.6;
+}
+.musicontent {
+  padding-top: 40px;
+  width: 80%;
+  margin-left: 10%
+}
+.musicboard tr {
+  height: 70px;
+}
+
+.first {
+	border-top: 1px solid grey;
+}
+
+th, td {                                              /*TABLEAU*/
+   border-bottom: 1px solid grey;
+  color: white;
+  height: 45px;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
