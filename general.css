@@ -16,10 +16,10 @@ body {
 
 
 #page .container {
-    display: flex;
+ /*   display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: stretch;
+    align-items: stretch;*/
     margin-bottom: 100px;
     border-bottom: 1px solid white;
     border-top: 1px solid white;

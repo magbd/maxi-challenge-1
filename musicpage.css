@@ -178,8 +178,8 @@ footer {
 }
 .musicontent {
   padding-top: 40px;
-  width: 80%;
-  margin-left: 10%
+  /*width: 80%;*/
+  margin: autot
 }
 .musicboard tr {
   height: 70px;
@@ -195,3 +195,4 @@ table {
   width: 100%;
   margin-bottom: 40px;
 }
+
