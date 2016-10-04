@@ -1,40 +1,4 @@
-body {
-	background: url("images/background.jpg");
-	background-repeat: no-repeat;
-    background-blend-mode: soft-light;
-    background-color: #333;
-    background-position: 50%;
-    background-size: 100%;
-    background-attachment: fixed;
-    font-family: "Open Sans"
-}
 
-.container {
-	margin: 0 auto;
-	width: 80%
-}
-
-hr {
-    color: white;
-}
-
-
-p {
-    color: white;
-}
-
-h2 {
-    text-transform: uppercase;
-    color: white;
-    font-size: 2em;
-    margin-top: 110px;
-    font-weight: normal;
-}
-
-h3 {
-    text-transform: uppercase;
-    color: white
-}
 
 /*contenu #page photos-----------------------------*/
 
@@ -42,10 +6,7 @@ h3 {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
-    /*align-items: stretch;*/
-    max-width: 100%;
-    max-height: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     border-bottom: 1px solid white;
     border-top: 1px solid white;
     padding-top: 50px;
