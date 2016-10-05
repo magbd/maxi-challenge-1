@@ -60,19 +60,19 @@
 
 .l2img1 {
     display: flex;
-    flex: 2;
+    flex: 1.5;
 }
 
 .l2img2 {
     display: flex;
-    flex: 2;
-    padding-left: 3px;
-    padding-right: 3px;
+    flex: 1.5;
+    padding-left: 1px;
+    padding-right: 1px;
 }
 
 .l2img3 {
     display: flex;
-    flex: 1;
+    flex: 0.66;
 }
 /*ligne 3---------------------------------------------------*/
 .element3 {
