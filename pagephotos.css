@@ -3,8 +3,8 @@
 
 #page .container {
     display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
+    flex-direction: column;
+    /*justify-content: space-between;*/
 
     /*align-items: stretch;*/
 /*    max-width: 100%;
@@ -20,85 +20,96 @@
 
 #page img {
     width: 100%;
-    padding: 2px;
+   /* padding: 2px;*/
 }
 
 /*ligne 1--------------------------------------------*/
 .element1 {
     display: flex;
-    flex-direction: row;
-    width: 100%;
+    /*flex-direction: row;*/
+   /* width: 100%;*/
 }
 
 .single {
+    /*display: flex;*/
     display: flex;
-    flex: 2;
-    padding-right: 0.5%
+    flex:2;
+   
+    /*padding-right: 0.5%*/
+}
+
+.l1img1 {
+    flex: 1.5;
+    padding-right: 1%;
 }
 
 .double {
     display: flex;
     flex-direction: column;
-    flex: 1;
-}
+    justify-content: space-between;
+    /*width: 33.2%;*/
+   flex: 1;
 
-.l1img2 {
-    display: flex;
-    flex: 1
 }
 
 .l1img3 {
-    display: flex;
-    flex: 1
+    /*display: flex;*/
+    flex: 0.75
+}
+
+.l1img4 {
+    /*display: flex;*/
+    flex: 0.75
 }
 
 /*ligne 2-------------------------------------------------*/
 .element2 {
-    display: flex;
-    flex-direction: row;
+    display: flex;/*
+    flex-direction: row;*/
 }
 
-.l2img1 {
-    display: flex;
-    flex: 2;
+.l2img1 {/*
+    display: flex;*/
+    flex: 1.5;
 }
 
-.l2img2 {
-    display: flex;
-    flex: 2;
-    padding-left: 3px;
-    padding-right: 3px;
+.l2img2 {/*
+    display: flex;*/
+    flex: 1.5;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
 }
 
-.l2img3 {
-    display: flex;
-    flex: 1;
+.l2img3 {/*
+    display: flex;*/
+    flex: 0.66;
 }
 /*ligne 3---------------------------------------------------*/
 .element3 {
-    display: flex;
-    flex-direction: row;
+    display: flex;/*
+    flex-direction: row;*/
 }
 
 .l3img1 {
-    display: flex;
-    flex: 2;
+    /*display: flex;*/
+    flex: 1.5;
 }
 
 .l3img2 {
-    display: flex;
-    flex: 2;
-    padding-left: 3px;
-    padding-right: 3px;
+    /*display: flex;*/
+    flex: 1.5;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
 }
 
 .l3img3 {
-    display: flex;
-    flex: 1;
+    /*display: flex;*/
+    flex: 0.66;
+    padding-right: 0.5%;
 }
 
 .l3img4 {
-    display: flex;
-    flex: 2;
+    /*display: flex;*/
+   flex: 1.41;
 }
 
