@@ -6,30 +6,31 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     border-bottom: 1px solid white;
     border-top: 1px solid white;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.element {
+/*.element {
     width: 30%;
-}
+}*/
 
-.element:nth-child(1) {
-    flex: 1;
+.element1 {
+    width: 60%;
     padding-right: 5%;
     /*border-bottom: 1px solid white;*/
 }
 
-.element:nth-child(2) {
+.element2 {
+    width: 30%;
 
 }
 
-/*.element:nth-child(3) {
-    align-self: flex-end;
-}*/
+.element1 img {
+    width: 100%;
+}
 
 input {
     margin-bottom: 50px;
@@ -47,7 +48,7 @@ input {
     font-size: 0.8em;
 }
 
-#page .article h3 {
+#page .bloc h3 {
     font-size: 2em;
     color: white;
     text-transform: none;
@@ -62,7 +63,7 @@ input {
     margin-bottom: 30px;
 }
 
-#page .article {
+#page .bloc {
     margin-bottom: 50px;
 }
 
@@ -70,3 +71,4 @@ input {
     margin-bottom: 50px;
     border-bottom: 0;
 }
+

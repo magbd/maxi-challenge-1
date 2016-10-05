@@ -1,3 +1,19 @@
+
+/*formulaire contact-----------------------------*/
+
+
+#page .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
 /*formulaire contact-----------------------------*/
 
 
